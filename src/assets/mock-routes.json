@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/",
+    "name": "home",
+    "component": "CastleView",
+    "meta": { "requiresAuth": true }
+  },
+  {
+    "path": "/register",
+    "name": "register",
+    "component": "RegisterView",
+    "meta": { "guestOnly": true }
+  },
+  {
+    "path": "/login",
+    "name": "login",
+    "component": "LoginView",
+    "meta": { "guestOnly": true }
+  },
+  {
+    "path": "/castle",
+    "name": "castle",
+    "component": "CastleView",
+    "meta": { "requiresAuth": true }
+  },
+  {
+    "path": "/lands",
+    "name": "lands",
+    "component": "LandsView",
+    "meta": { "requiresAuth": true }
+  },
+  {
+    "path": "/world",
+    "name": "world",
+    "component": "WorldView",
+    "meta": { "requiresAuth": true }
+  }
+]
